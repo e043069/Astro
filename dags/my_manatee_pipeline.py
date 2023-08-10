@@ -13,7 +13,7 @@ import random
 
 def num_manatees():
     aggregation_size = random.randint(1, 6)
-    return f"This aggregation has {aggregation_size} manatees!!!"
+    return f"This aggregation has {aggregation_size} manatees!!!!"
 
 @dag(
     schedule="0 0 * * *",
