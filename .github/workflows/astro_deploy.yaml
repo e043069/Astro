@@ -54,7 +54,7 @@ jobs:
         run: |
           curl -sSL https://install.astronomer.io | sudo bash -s -- v1.7.0
           astro version
-          astro auth login gcp0001.us-east4.astronomer.io
+          astro login gcp0001.us-east4.astronomer.io
           astro deployment update --dag-deploy enable --force
           astro deploy --dags
 
