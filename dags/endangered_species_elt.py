@@ -14,7 +14,7 @@ import pandas as pd
 
 def num_manatees():
     aggregation_size = random.randint(1, 6)
-    return f"This aggregation has {aggregation_size} manatees!!!!"
+    return f"This aggregation has {aggregation_size} manatees!"
 
 @aql.dataframe(task_id="load_species_status_data")
 def load_species_status_data_func():
